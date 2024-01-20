@@ -1,0 +1,26 @@
+name: pharmacie_api
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'  # Met à jour la version minimale du SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  uuid: ^3.0.0  # Ajoute la dépendance pour la génération d'UUID
+
+  http: ^1.1.2
+  # Ajoute d'autres dépendances nécessaires ici
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
